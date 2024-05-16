@@ -1,5 +1,6 @@
 plugins {
     id("com.android.application")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -43,6 +44,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.navigation:navigation-fragment:2.7.7")
     implementation("androidx.navigation:navigation-ui:2.7.7")
+    implementation("com.google.firebase:firebase-auth:23.0.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -52,10 +54,11 @@ dependencies {
     implementation ("com.google.android.gms:play-services-location:20.0.0")
     implementation ("org.osmdroid:osmdroid-android:6.1.10")
     implementation ("androidx.preference:preference:1.1.1")
-
-
-
-
-
+    implementation("com.google.android.material:material:1.4.0")
+    implementation("org.apache.poi:poi:5.2.4")
+    implementation("org.apache.poi:poi-ooxml:5.2.4")
+    implementation("com.itextpdf:itext7-core:7.1.15")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
 }

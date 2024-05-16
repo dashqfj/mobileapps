@@ -61,6 +61,18 @@
         android:name="ru.mirea.borodkinada.mireaproject.ProfileFragment"
         android:label="fragment_profile" />
 
+    <fragment
+        android:id="@+id/fileFragment"
+        android:name="ru.mirea.borodkinada.mireaproject.FileFragment"
+        android:label="fragment_file"
+        tools:layout="@layout/fragment_file" />
+
+    <fragment
+        android:id="@+id/network"
+        android:name="ru.mirea.borodkinada.mireaproject.NetworkFragment"
+        android:label="fragment_network_info" />
+
+
 
 </navigation>
 

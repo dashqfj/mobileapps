@@ -44,7 +44,14 @@
             android:id="@+id/profile"
             android:icon="@android:drawable/ic_menu_myplaces"
             android:title="Profile" />
-
+        <item
+            android:id="@+id/fileFragment"
+            android:icon="@android:drawable/dark_header"
+            android:title="File" />
+        <item
+            android:id="@+id/network"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Network" />
 
     </group>
 </menu>
