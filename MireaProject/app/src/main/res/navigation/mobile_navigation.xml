@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.borodkinada.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.borodkinada.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.borodkinada.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.borodkinada.mireaproject.DataFragment"
+        android:label="@string/menu_data"
+        tools:layout="@layout/fragment_data" />
+
+    <fragment
+        android:id="@+id/nav_webView"
+        android:name="ru.mirea.borodkinada.mireaproject.WebViewFragment"
+        android:label="@string/menu_webView"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/wokerFragment"
+        android:name="ru.mirea.borodkinada.mireaproject.WorkerFragment"
+        android:label="Worker"
+        tools:layout="@layout/fragment_worker" />
+
+    <fragment
+        android:id="@+id/camera"
+        android:name="ru.mirea.borodkinada.mireaproject.CameraFragment"
+        android:label="fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_sensor_fragment"
+        android:name="ru.mirea.borodkinada.mireaproject.SensorFragment"
+        android:label="Sensor Fragment"
+        tools:layout="@layout/fragment_sensor" />
+
+    <fragment
+        android:id="@+id/audio"
+        android:name="ru.mirea.borodkinada.mireaproject.AudioFragment"
+        android:label="fragment_audio" />
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="ru.mirea.borodkinada.mireaproject.ProfileFragment"
+        android:label="fragment_profile" />
+
+
+</navigation>
+
+

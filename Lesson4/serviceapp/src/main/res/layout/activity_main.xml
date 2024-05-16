@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/player_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/track_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belfast"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boney M"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/album_artwork"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/player_info_layout"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/album"
+        android:scaleType="centerCrop" />
+
+    <!-- Прогресс воспроизведения -->
+    <LinearLayout
+        android:id="@+id/player_controls_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/album_artwork"
+        android:layout_marginTop="164dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageButton
+            android:id="@+id/btnPrevious"
+            android:layout_width="73dp"
+            android:layout_height="58dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@android:drawable/ic_media_previous" />
+
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="54dp"
+            android:layout_height="42dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/btnPause"
+            android:layout_width="54dp"
+            android:layout_height="42dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@android:drawable/ic_media_pause" />
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="100dp"
+            android:layout_height="53dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@android:drawable/ic_media_next" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/player_controls_layout"
+        android:layout_marginTop="21dp"
+        android:max="100" />
+
+</RelativeLayout>

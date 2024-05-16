@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Рок"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textColor="#4682B4" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/rock"
+        android:scaleType="centerCrop"
+        android:contentDescription="Image representing esports"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Рок — обобщающее название ряда направлений популярной музыки. Слово rock возникло как сокращение от названия рок-н-ролла, хронологически первого жанра рок-музыки, и обозначает характерные для рок-н-ролла ритмические ощущения, связанные с определённой формой движения, по аналогии с roll, twist, swing, shake."
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Основные инструменты в роке:"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textColor="#4682B4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Гитара"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#4682B4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Бас-гитара"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#4682B4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Барабаны"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#4682B4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Клавишные инструменты"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#4682B4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Вокал"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#4682B4" />
+
+    </LinearLayout>
+
+</LinearLayout>
