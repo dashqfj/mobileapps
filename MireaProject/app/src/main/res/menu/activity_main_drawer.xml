@@ -52,6 +52,10 @@
             android:id="@+id/network"
             android:icon="@android:drawable/ic_menu_mapmode"
             android:title="Network" />
+        <item
+            android:id="@+id/mapView"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Map" />
 
     </group>
 </menu>

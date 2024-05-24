@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map xmlns:android="http://schemas.android.com/apk/res/android">
+    <boolean name="osmdroid.bonuspack.overlays.scalebar" value="true"/>
+    <string name="osmdroid.basePath" value="/mnt/sdcard/osmdroid/"/>
+    <string name="osmdroid.cachePath" value="/mnt/sdcard/osmdroid/cache/"/>
+    <string name="osmdroid.tileProviderFactory" value="GEO_PACKAGE"/>
+</map>

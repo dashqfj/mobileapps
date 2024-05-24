@@ -72,6 +72,11 @@
         android:name="ru.mirea.borodkinada.mireaproject.NetworkFragment"
         android:label="fragment_network_info" />
 
+    <fragment
+        android:id="@+id/mapView"
+        android:name="ru.mirea.borodkinada.mireaproject.PlacesFragment"
+        android:label="fragment_places_info" />
+
 
 
 </navigation>
